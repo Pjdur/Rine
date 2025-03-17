@@ -1,0 +1,14 @@
+[workspace]
+members = [
+    "core",
+    "gui",
+    "components/file_explorer",
+    "components/terminal",
+    "components/git_features"
+]
+
+[workspace.package]
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
