@@ -1,0 +1,10 @@
+[package]
+name = "core"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+gui = { path = "../gui" }
+file_explorer = { path = "../components/file_explorer" }
+terminal = { path = "../components/terminal" }
+git_features = { path = "../components/git_features" }
