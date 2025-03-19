@@ -1,7 +1,6 @@
 [package]
-name = "gui"
+name = "git_features"
 version = "0.1.0"
 edition = "2021"
 
 [dependencies]
-iced = "0.4"
