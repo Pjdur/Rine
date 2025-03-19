@@ -2,8 +2,7 @@ use iced::{button, scrollable, Button, Column, Container, Element, Length, Sandb
 use walkdir::WalkDir;
 
 pub fn initialize_file_explorer() {
-    // Run the file explorer application
-    FileExplorer::run(Settings::default());
+
 }
 
 #[derive(Default)]
