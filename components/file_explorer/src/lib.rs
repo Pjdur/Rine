@@ -1,4 +1,4 @@
-use iced::{button, scrollable, Button, Column, Container, Element, Length, Sandbox, Scrollable, Settings, Text};
+use iced::{button, scrollable, Button, Column, Container, Element, Length, Sandbox, Scrollable, Text};
 use walkdir::WalkDir;
 
 pub fn initialize_file_explorer() {
