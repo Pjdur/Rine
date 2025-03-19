@@ -11,3 +11,9 @@ members = [
     "components/terminal",
     "components/git_features"
 ]
+
+[dependencies]
+file_explorer = { path = "components/file_explorer" }
+
+[target.'cfg(windows)'.dependencies]
+winapi = { version = "0.3", features = ["winuser"] }
